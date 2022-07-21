@@ -26,15 +26,23 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fV-nm-nvs">
+                                <rect key="frame" x="65" y="424" width="67" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6fV-nm-nvs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="380" id="0Jd-Ea-SQ5"/>
                             <constraint firstItem="XTr-Ub-opQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="174" id="9tA-dr-bz7"/>
                             <constraint firstItem="GqF-bl-Ixy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="174" id="CvB-fM-0Q0"/>
                             <constraint firstItem="XTr-Ub-opQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="S9N-Hq-jad"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XTr-Ub-opQ" secondAttribute="trailing" constant="173" id="V4E-Ad-EFC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GqF-bl-Ixy" secondAttribute="bottom" constant="96" id="ViF-h7-upx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6fV-nm-nvs" secondAttribute="bottom" constant="407" id="fUm-Ft-kaD"/>
+                            <constraint firstItem="6fV-nm-nvs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="kqa-qm-dBs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GqF-bl-Ixy" secondAttribute="trailing" constant="173" id="n0K-h8-Szl"/>
                         </constraints>
                     </view>
